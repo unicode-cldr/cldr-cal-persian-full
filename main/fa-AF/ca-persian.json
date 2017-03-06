@@ -3,8 +3,8 @@
     "fa-AF": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12944 $",
-          "_cldrVersion": "30.0.3"
+          "_number": "$Revision: 13133 $",
+          "_cldrVersion": "31"
         },
         "language": "fa",
         "territory": "AF"
@@ -300,10 +300,10 @@
               }
             },
             "dateFormats": {
-              "full": "G y MMMM d, EEEE",
-              "long": "d MMMM y G",
-              "medium": "d MMM y G",
-              "short": "y/M/d G"
+              "full": "y MMMM d, EEEE",
+              "long": "d MMMM y",
+              "medium": "d MMM y",
+              "short": "y/M/d"
             },
             "timeFormats": {
               "full": "H:mm:ss (zzzz)",
@@ -344,17 +344,17 @@
                 "MMMMd": "d LLLL",
                 "MMMMEd": "E d LLLL",
                 "ms": "mm:ss",
-                "y": "y G",
-                "yyyy": "y G",
-                "yyyyM": "y/M G",
-                "yyyyMd": "y/M/d G",
-                "yyyyMEd": "E y/M/d G",
-                "yyyyMMM": "MMM y G",
-                "yyyyMMMd": "d MMM y G",
-                "yyyyMMMEd": "E d MMM y G",
-                "yyyyMMMM": "G y MMMM",
-                "yyyyQQQ": "QQQQ y G",
-                "yyyyQQQQ": "QQQQ y G"
+                "y": "y",
+                "yyyy": "y",
+                "yyyyM": "y/M",
+                "yyyyMd": "y/M/d",
+                "yyyyMEd": "E y/M/d",
+                "yyyyMMM": "MMM y",
+                "yyyyMMMd": "d MMM y",
+                "yyyyMMMEd": "E d MMM y",
+                "yyyyMMMM": "y MMMM",
+                "yyyyQQQ": "QQQQ y",
+                "yyyyQQQQ": "QQQQ y"
               },
               "appendItems": {
                 "Day": "{0} ({2}: {1})",
@@ -429,39 +429,39 @@
                   "M": "E d LLL تا E d LLL"
                 },
                 "y": {
-                  "y": "y تا y G"
+                  "y": "y تا y"
                 },
                 "yM": {
-                  "M": "y/M تا y/M G",
-                  "y": "y/M تا y/M G"
+                  "M": "y/M تا y/M",
+                  "y": "y/M تا y/M"
                 },
                 "yMd": {
-                  "d": "y/M/d تا y/M/d G",
-                  "M": "y/M/d تا y/M/d G",
-                  "y": "y/M/d تا y/M/d G"
+                  "d": "y/M/d تا y/M/d",
+                  "M": "y/M/d تا y/M/d",
+                  "y": "y/M/d تا y/M/d"
                 },
                 "yMEd": {
-                  "d": "E y/M/d تا E y/M/d G",
-                  "M": "E y/M/d تا E y/M/d G",
-                  "y": "E y/M/d تا E y/M/d G"
+                  "d": "E y/M/d تا E y/M/d",
+                  "M": "E y/M/d تا E y/M/d",
+                  "y": "E y/M/d تا E y/M/d"
                 },
                 "yMMM": {
-                  "M": "LLL تا MMM y G",
-                  "y": "MMM y تا MMM y G"
+                  "M": "LLL تا MMM y",
+                  "y": "MMM y تا MMM y"
                 },
                 "yMMMd": {
-                  "d": "d تا d MMM y G",
-                  "M": "d LLL تا d MMM y G",
-                  "y": "d MMM y تا d MMM y G"
+                  "d": "d تا d MMM y",
+                  "M": "d LLL تا d MMM y",
+                  "y": "d MMM y تا d MMM y"
                 },
                 "yMMMEd": {
-                  "d": "E d LLL تا E d MMM y G",
-                  "M": "E d LLL تا E d MMM y G",
-                  "y": "E d MMM y تا E d MMM y G"
+                  "d": "E d LLL تا E d MMM y",
+                  "M": "E d LLL تا E d MMM y",
+                  "y": "E d MMM y تا E d MMM y"
                 },
                 "yMMMM": {
-                  "M": "LLLL تا MMMM y G",
-                  "y": "MMMM y تا MMMM y G"
+                  "M": "LLLL تا MMMM y",
+                  "y": "MMMM y تا MMMM y"
                 }
               }
             }
