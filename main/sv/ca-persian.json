@@ -3,8 +3,8 @@
     "sv": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14394 $",
-          "_cldrVersion": "34"
+          "_number": "$Revision: 14890 $",
+          "_cldrVersion": "35"
         },
         "language": "sv"
       },
@@ -381,6 +381,15 @@
               },
               "intervalFormats": {
                 "intervalFormatFallback": "{0} – {1}",
+                "Bh": {
+                  "B": "h B – h B",
+                  "h": "h – h B"
+                },
+                "Bhm": {
+                  "B": "h:mm B – h:mm B",
+                  "h": "h:mm – h:mm B",
+                  "m": "h:mm – h:mm B"
+                },
                 "d": {
                   "d": "d–d"
                 },
@@ -435,8 +444,8 @@
                   "m": "h:mm–h:mm a"
                 },
                 "Hm": {
-                  "H": "HH:mm–HH:mm",
-                  "m": "HH:mm–HH:mm"
+                  "H": "HH:mm – HH:mm",
+                  "m": "HH:mm – HH:mm"
                 },
                 "hmv": {
                   "a": "h:mm a – h:mm a v",
@@ -444,8 +453,8 @@
                   "m": "h:mm–h:mm a v"
                 },
                 "Hmv": {
-                  "H": "HH:mm–HH:mm v",
-                  "m": "HH:mm–HH:mm v"
+                  "H": "HH:mm – HH:mm v",
+                  "m": "HH:mm – HH:mm v"
                 },
                 "hv": {
                   "a": "h a – h a v",
